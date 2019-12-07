@@ -1,0 +1,36 @@
+@import './components/main';
+@import './components/button';
+
+$body-color: slateblue;
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+  background-color: gainsboro;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+svg {
+  width: 20px;
+  height: 20px;
+  fill: red;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background: url('../images/image.png') no-repeat center;
+  background-size: contain;
+}
+
+.image2 {
+  width: 200px;
+  height: 200px;
+}
+
+.cool-font {
+  font: 500 16px/24px $font-pacifico;
+  color: cadetblue;
+}
